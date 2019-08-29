@@ -1,0 +1,17 @@
+element{
+
+}
+body, html{
+    font-size: small;
+}
+Body {
+    background: #fff;
+    color: #222;
+}
+body, td, a, p, .h{
+    font-family: arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
