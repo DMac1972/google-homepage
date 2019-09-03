@@ -1,49 +1,77 @@
-<head>
-    <title> Google Homepage</title>
-    <link href="https://fonts.googleapis.com/css? family=Roboto" rel="stylesheet">
-</head>
 
-<body>
-    <header>
-        <nav>
-            <ul id="nav_bar">
-                <li class="nav_links" id="gmail"><a href="#">Gmail</a></li>
-                <li id="sign_in"><a href="#">Sign In</a></li>
-            </ul>
-        </nav>
-    </header>
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@DMac1972
+Learn Git and GitHub without any code!
 
-    <!-- GOOGLE IMG -->
-    <div class="google">
-        <a href="#" id="google_logo"><img src="http://il38l.photobucket.com/albums/ah215/mzartdesigns/google-logo_zpspkcztsjo.png" 
-            alt="photo google-logo_zpspkcztsjo.png" /></a>
-        </div>
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
 
-        <!-- FORM SEARCH -->
-        <div class= "form">
+1
+0
+
+    0
+
+emil-nici/google-homepage
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Security
+Insights
+google-homepage/index.html
+@emil-nici emil-nici . 31f4ec7 Aug 19, 2019
+49 lines (45 sloc) 1.9 KB
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>My google-home project</title>
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+                    <nav class="top-nav">
+                        <a class="top-nav-men" href="#">Gmail</a>
+                        <a class="top-nav-men" href="#">Images</a>
+                        <a class="top-nav-men" href="#"><img class="grid" src="https://cdn1.imggmi.com/uploads/2019/8/19/7f5497f797a982863d7b6919ff6b1ced-full.png"></a>
+                        <input class="login-button" type="button" value="Sign in">
+                    </nav>
+
+        <!--Main content-->
+        <div class="main-content">
+        <img class="google-logo" src=""https://imggmi.com/" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/8/20/7dcdf49a21ec67712b04e22019dd0d6b-full.png" alt="google_logo">
             <form>
-                <label for="form-search"></label>
-                <input type="text" id="form-search"
-                placeholder="Search Google or type URL">
+                <input class="search-bar" type="text" name="search">
+            </br>
+                <input class="search-but" type="button" value="Google Search">
+                <input class="search-but" type="button" value="I'm Feeling Lucky">
             </form>
         </div>
+            <!--Footer-->
+            <footer class="bottom-bar">
+                <div class="lang">
+                <p>Ireland</p>
+                </div>
+                <div class="bot-bar1">
+                    <nav class="bot-bar-nav1">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">About</a>
+                        <a href="#">How Search works</a>
+                    </nav>
+                    <nav class="bot-bar-nav2">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </nav>
+                </div>
+            </footer>
+    </body>
+</html>
 
-        <!-- BUTTONS -->
-        <div class= "buttons">
-            <input type="submit" value="Google Search" id="google_search">
-        </div>
+   
 
-        <!-- FOOTER -->
-        <footer>
-            <ul class="footer-left">
-                <li><a href= "#">Advertising</a></li>
-                <li><a href= "#">Business</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <ul class="footer-right">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </footer>
-</body>
